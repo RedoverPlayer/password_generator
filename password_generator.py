@@ -10,7 +10,7 @@ class password(Thread):
 
     def run(self):
         global i
-        characters = " !#$%&()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]\\^_`abcdefghijklmnopqrstuvwxyz{|}~€,"
+        characters = " !#$%&()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]\\^_`abcdefghijklmnopqrstuvwxyz{|}~€," #ASCII table
         percent = 0.0
         percent2 = 0.0
         password = ""
